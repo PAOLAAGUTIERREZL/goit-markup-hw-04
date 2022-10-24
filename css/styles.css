@@ -2,7 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   cursor: pointer;
 }
-{
+ {
   box-sizing: border-box;
 }
 
@@ -10,17 +10,17 @@ body {
 :root {
   --underline-color: #2196f3;
 }
-.container{
+.container {
   width: 1200px;
-  margin: 0 auto; 
-} 
-.container-header{
-  display: flex; 
-  justify-content: space-between; 
+  margin: 0 auto;
+}
+.container-header {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  background-color: #ffff; 
+  background-color: #ffff;
   height: 80px;
-  margin:0px;
+  margin: 0px;
   padding-left: 100px;
 }
 
@@ -52,14 +52,13 @@ body {
   margin-right: 50px;
 
   color: #757575;
-  
 }
 .link-contact:hover {
   color: var(--underline-color);
 }
-.img-correo{
-height:30px;
-width: 30px;
+.img-correo {
+  height: 30px;
+  width: 30px;
 }
 .link-log {
   font-style: normal;
@@ -73,16 +72,27 @@ width: 30px;
 .link-log:hover {
   color: var(--underline-color);
 }
+.nav-icon {
+  width: 16px;
+  height: 16px;
+  fill: #757575;
+}
+.nav-icon:hover {
+  fill: #2196f3;
+}
+.link-contact:hover .nav-icon {
+  fill: #2196f3;
+}
 
-.container-log{
-  display: flex; 
+.container-log {
+  display: flex;
   align-items: center;
 }
 /* .nav-style{
   margin-left:93px;
 } */
-.menu-flex{
-  padding:5px;
+.menu-flex {
+  padding: 5px;
   /* margin:50px; */
   list-style: none;
   border-radius: 20px;
@@ -91,168 +101,216 @@ width: 30px;
   /* justify-content: space-between; */
 }
 .menu-flex a {
-  padding: 5px 30px; 
+  padding: 5px 30px;
 }
 
-
-.cont1-flex{    /*bloque superior gris*/
-  background: #2F303A;
+.cont1-flex {
+  /*bloque superior gris*/
+  background-image: url("/images/imgprincipal.png");
   height: 500px;
-  padding:100px;
-  margin:0px;
+  padding: 100px;
+  margin: 0px;
   display: flex;
   flex-direction: column;
-  align-items:center; 
+  align-items: center;
   /* justify-content: center;  */
-
 }
 
-.cont1-flex h2 {   /*soluciones eficaces para su negocio*/
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 60px;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: #FFFFFF;
-
+.cont1-flex h2 {
+  /*soluciones eficaces para su negocio*/
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 .cont1-flex button {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 10px 32px; 
+  padding: 10px 32px;
   gap: 10px;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
   border-style: none;
   margin: auto;
-  background: #2196F3;
+  background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  
 }
 /* atencion a los detalles... */
-.cont2-flex{
-  padding-top: 95px;/*arriba derecha abajo izquiera */
-  padding-left: 100px; 
-  margin:0px;
+.cont2-flex {
+  padding-top: 95px; /*arriba derecha abajo izquiera */
+  padding-left: 100px;
+  margin: 0px;
   border-radius: none;
   box-shadow: none;
   display: flex;
-  justify-content: center; 
-  align-items: center;
+  justify-content: center;
   gap: 30px;
-  }
-
-.cont3-flex{         /*nuestro equipo posicion vertical */
-      padding-top: 50px;/*arriba derecha abajo izquiera */
-      padding-left: 50px;  
-      margin:0px;
-      list-style: none;
-      border-radius: none;
-      box-shadow: none;
-      display: flex;
-      justify-content: center; 
-      align-items: center;
-      gap: 23px;
-      padding-bottom: 94px;
-    }
-
- .fondo-gris{   /*index */
-  margin-top: 60px;
-  background: #F5F4FA;
 }
-.fondo-ne{
-  background: #FFFFFF;
+.servicios-container {
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  padding: 30px 105px;
 }
-.cont35-flex{         /* imagenes de aqué nos dedicamos  */
-  padding-top: 50px;/*arriba derecha abajo izquiera */
-  padding-left: 50px;  
+.servicios-icon {
+  width: 65.32px;
+  height: 70px;
+  fill: black;
+}
+
+.cont3-flex {
+  /*nuestro equipo posicion vertical */
+  padding-top: 50px; /*arriba derecha abajo izquiera */
+  padding-left: 50px;
+  margin: 0px;
   list-style: none;
   border-radius: none;
   box-shadow: none;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+  padding-bottom: 94px;
+}
+
+.fondo-gris {
+  /*index */
+  margin-top: 60px;
+  background: #f5f4fa;
+}
+.fondo-ne {
+  background: #ffffff;
+  box-shadow: none;
+  list-style: none;
+}
+/*clases de iconos en redes de equipo de trabajo*/
+.social-link-container {
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  border-radius: 22px;
+  padding: 12px;
+}
+.social-link-icon {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+.social-link-container:hover {
+  background-color: #2196f3;
+}
+.social-link-container:hover .social-link-icon {
+  fill: #ffffff;
+}
+.social-link-icon:hover {
+  fill: white;
+}
+.flex-list1 {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 270px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  padding: 32px;
+}
+
+.cont35-flex {
+  /* imagenes de aqué nos dedicamos  */
+  padding-top: 50px; /*arriba derecha abajo izquiera */
+  padding-left: 50px;
+  list-style: none;
+  border-radius: none;
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
   align-items: center;
   gap: 23px;
 }
 
-.cont3-flex h4{  /*nombres */
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
-background-color: #FFFFFF;
-
-
-} 
-.cont3-flex h5{  /*cargos */
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-text-align: center;
-letter-spacing: 0.03em;
-color: #757575; 
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
-background-color: #FFFFFF;
-
-}  
-.cont33-flex{      /*matriz*/
+.cont3-flex h4 {
+  /*nombres */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background-color: #ffffff;
+}
+.cont3-flex h5 {
+  /*cargos */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
+}
+.cont33-flex {
+  /*matriz*/
   padding-top: 56px;
   border-radius: none;
   box-shadow: none;
   display: flex;
   list-style: none;
   flex-direction: column;
-  justify-content:center;
+  justify-content: center;
   display: flex;
   padding-left: 30px;
   padding-bottom: 30px;
-} 
-.matriz-flex{         /* matriz principal de portfolio */
+}
+.matriz-flex {
+  /* matriz principal de portfolio */
   /*padding:0px 215px 30px 30px;    /* rriba derecha abajo izquiera*/
   /* margin:5px; */
   /* margin top: 55.05px; */
-  list-style: none; 
+  list-style: none;
   border-radius: none;
   box-shadow: none;
   display: flex;
   /* justify-content:first baseline;  */
-  align-items: center;  
-  gap:5px;
-  padding-bottom: 30px; 
-  
-
+  align-items: center;
+  gap: 5px;
+  padding-bottom: 30px;
 }
 
-ul{    /* tabla de nuestro equipo yy dentro de la matriz*/ 
-   list-style: none;
+ul {
+  /* tabla de nuestro equipo yy dentro de la matriz*/
+  list-style: none;
 }
 
-.subtitulo {      /* nuestro equipo y a que nos dedicamos es solo el titulo que es h2*/
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
-letter-spacing: 0.03em;
-padding-top: 100px;
-color: #212121;
-
-  
-
+.subtitulo {
+  /* nuestro equipo y a que nos dedicamos es solo el titulo que es h2*/
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding-top: 100px;
+  color: #212121;
 }
 
 .menu {
@@ -263,11 +321,9 @@ color: #212121;
   line-height: 36px;
   letter-spacing: 0.06em;
   color: #212121;
-  text-decoration: none; 
+  text-decoration: none;
   /* margin-block: 10px; */
-
 }
-
 
 .submenu {
   font-family: "Roboto";
@@ -278,108 +334,100 @@ color: #212121;
   letter-spacing: 0.03em;
   color: #757575;
   text-decoration: none;
- 
-
 }
 
-.fondo-matriz{
-  background: #FFFFFF;
-  border: 1px solid #EEEEEE;
+.fondo-matriz {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
 }
 
-.cont5-flex{   /* pie de pagina */
+.cont5-flex {
+  /* pie de pagina */
   height: 252px;
   /* padding-left: 215px; */
   padding-top: 40px;
-  margin:0px;
+  margin: 0px;
   list-style: none;
   border-radius: none;
-  background: #2F303A;
+  background: #2f303a;
   box-shadow: none;
   display: flex;
   flex-direction: row;
   /* justify-content: space-between;  */
-  }
-  
+}
+
 .services {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   display: flex;
-  padding-top :50px;
-  margin:0px;
+  padding-top: 50px;
+  margin: 0px;
 }
 
-.flex-list{      /* Clientes regulares*/
+.flex-list {
+  /* Clientes regulares*/
   justify-content: space-between;
   display: flex;
   width: 500px;
   height: 200px;
   gap: 30px;
-  margin-left: 70px;;
-
+  margin-left: 70px;
 }
-.client-container{
+.client-container {
   /* box-sizing: border-box;
   position: absolute; */
   width: 170px;
   height: 81px;
   /* left: 415px;
   top: 2447px; */
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
   padding: 14px 32px;
-  fill:  #AFB1B8;
+  fill: #afb1b8;
 }
-.client-container:hover{
+.client-container:hover {
   border-color: #2196f3;
+  fill: #2196f3;
 }
-.client-logo{
-height:52px;
-width:106px;
-color: white;
+.client-logo {
+  height: 52px;
+  width: 106px;
 }
-.client-container:hover .client-logo{
+/* .client-container:hover .client-logo{
   fill:#2196f3;
-}
-
-
-
-
-
+} */
 
 footer {
-    height: 252px;
-    width: 100%;
-    left: 0px;
-    top: 1628px;
-    border-radius: 0px;
-    background-color: #2f303a;
-    
-    /* margin:auto; */
+  height: 252px;
+  width: 100%;
+  left: 0px;
+  top: 1628px;
+  border-radius: 0px;
+  background-color: #2f303a;
+
+  /* margin:auto; */
 }
 address {
   display: flex;
   flex-direction: row;
   padding-left: 50px;
-  
 }
-
-
 
 /* portfolio------------------------------------------------------------------------------------------------------------------------- */
 
-.menu2-flex{  /*botones principales*/
-  padding-top:50px; 
-  margin:auto;
+.menu2-flex {
+  /*botones principales*/
+  padding-top: 50px;
+  margin: auto;
   list-style: none;
   border-radius: 20px;
-  background-color:#ffff;
+  background-color: #ffff;
   box-shadow: none;
   display: flex;
   gap: 8px;
@@ -394,15 +442,42 @@ address {
   background: #f5f4fa;
   border-radius: 4px;
   outline: none;
-  border:0;
+  border: 0;
   cursor: pointer;
-
 }
 .main-buttons:hover {
   background-color: var(--underline-color);
   color: white;
 }
 
+.fila-icons-piepagina {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: none;
+  margin-top: 90px;
+  gap: 50px;
+}
+.icon-footer {
+  height: 44px;
+  width: 44px;
+  left: 0px;
+  top: 0px;
+  border-radius: 100px;
+  align-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: white;
+  margin-right: 10px;
+}
+.iconfooter-container {
+  width: 10px;
+  height: 10px;
+  fill: #afb1b8;
+}
+
+.icon-footer:hover {
+  background-color: #2196f3;
+}
 
 /* ********************************************************** */
 
@@ -470,40 +545,38 @@ address {
 }
 
 .foot1 {
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
-color: #2196F3;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
 }
 .foot2 {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   /* or 171% */
-  
+
   letter-spacing: 0.03em;
-  
-  color: #FFFFFF;
+
+  color: #ffffff;
 }
 .foot3 {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
-
-
 
 h2xx {
   font-style: normal;
@@ -523,7 +596,6 @@ pxx {
   color: #757575;
 }
 
-
 /* .submenu:hover{
   text-decoration: underline; 
   text-decoration-color: var(--underline-color);
@@ -542,4 +614,3 @@ pxx {
   text-decoration: underline; 
   text-decoration-color: var(--underline-color); 
     } */
-  
