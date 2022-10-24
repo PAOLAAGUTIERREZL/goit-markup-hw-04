@@ -106,7 +106,7 @@ body {
 
 .cont1-flex {
   /*bloque superior gris*/
-  background-image: url("/images/imgprincipal.png");
+  background-image: url("../images/imgprincipal.png");
   height: 500px;
   padding: 100px;
   margin: 0px;
