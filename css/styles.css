@@ -578,39 +578,3 @@ address {
   color: rgba(255, 255, 255, 0.6);
 }
 
-h2xx {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 36px;
-  letter-spacing: 0.06em;
-  color: #212121;
-}
-
-pxx {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-
-/* .submenu:hover{
-  text-decoration: underline; 
-  text-decoration-color: var(--underline-color);
-} */
-
-/* 
-.foot1:hover {
-  text-decoration: underline; 
-  text-decoration-color: var(--underline-color);
-    }
-.foot2:hover {
-  text-decoration: underline; 
-  text-decoration-color: var(--underline-color);
-    }
-.foot3:hover {
-  text-decoration: underline; 
-  text-decoration-color: var(--underline-color); 
-    } */
