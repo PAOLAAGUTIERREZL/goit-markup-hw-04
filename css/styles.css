@@ -370,7 +370,7 @@ ul {
   color: #ffffff;
   display: flex;
   padding-top: 50px;
-  margin: 0px;
+  margin left: 100px;
 }
 
 .flex-list {
@@ -453,34 +453,7 @@ address {
   color: white;
 }
 
-.fila-icons-piepagina {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-left: none;
-  margin-top: 90px;
-  gap: 50px;
-}
-.icon-footer {
-  height: 44px;
-  width: 44px;
-  left: 0px;
-  top: 0px;
-  border-radius: 100px;
-  align-content: center;
-  background-color: rgba(255, 255, 255, 0.1);
-  fill: white;
-  margin-right: 10px;
-}
-.iconfooter-container {
-  width: 10px;
-  height: 10px;
-  fill: #afb1b8;
-}
 
-.icon-footer:hover {
-  background-color: #2196f3;
-}
 
 /* ********************************************************** */
 
@@ -581,3 +554,39 @@ address {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.fila-icons-piepagina {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: none;
+  margin-top: 90px;
+  gap: 20px;
+}
+
+.iconfooter-container{
+  height: 44px;
+  width: 44px;
+  left: 0px;
+  top: 0px;
+  border-radius: 22px;
+  align-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 12px;
+  /* fill: white;
+  margin-right: 10px; */
+}
+.icon-footer  {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+
+.icon-footer:hover{
+  fill:  #ffffff;
+}
+.iconfooter-container:hover{
+  background-color: #2196f3;
+}
+.iconfooter-container:hover .icon-footer{
+  fill: #ffffff;
+}
