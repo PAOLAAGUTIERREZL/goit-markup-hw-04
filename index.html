@@ -9,27 +9,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://unpkg.com/modern-normalize@1.1.0/modern-normalize.css">
     <link rel="stylesheet" href="css/styles.css">
-    <!-- <link href="css/styles.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="CSS\styles.css" rel="stylesheet" type="text/css">
+
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-  </style>
-  
+      .title {
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Roboto', sans-serif;
+      }
+    </style>
+
+
   </head>
   <body>
-    <header>
-      <div class="container">
-        <div class="container-header">
-        
+    <header class="container-header">
+      <div class="container-header1">
+        <div style="display: flex; align-items: center;">
           <a class="link-log" href="http://www.WebStudio" target="_blank">WebStudio</a>
-          <!-- <nav class="nav-style"> -->
-            <ul class="menu-flex">
-              <li><a class="link-menu" href="index.html" target="_blank">Estudio </a></li>
-              <li><a class="link-menu" href="portfolio.html" target="_blank">Portafolio</a></li>
-              <li><a class="link-menu" href="http://www.Contacto" target="_blank">Contactos</a>
-            </ul>
-            <div class="container-header">
-            <a class="link-contact" href="mailto:info@decstudio.com"> 
+
+          <nav style="margin-left: 90px;">
+              <ul class="menu-flex">
+                <li><a class="link-menu" href="index.html" target="_blank">Estudio </a></li>
+                <li><a class="link-menu" href="portfolio.html" target="_blank">portafolio</a></li>
+                <li><a class="link-menu" href="http://www.Contacto" target="_blank">Contacto</a>
+              </ul>
+          </nav>
+
+        </div>
+            <div class="container-header2">
+            <a class="link-contact" href="mailto:info@decstudio.com">
               <svg class="nav-icon">
                 <use href="./images/icons.svg#icon-sobre"></use>
               </svg>
@@ -40,24 +48,23 @@
               <svg class="nav-icon">
                 <use href="./images/icons.svg#icon-telefonointeligente"></use>
               </svg>
-              +52 55 5529 6000 
+              +52 55 5529 6000
             </a>
-          </div>
 
+          </div>
         </div>
-      </div>
     </header>
     <main>
 
-      <section class="cont1-flex">  
+      <section class="cont1-flex">
       <div class="container">
         <!-- <div class="cont1-flex"> -->
           <h2>SOLUCIONES EFICACES PARA <br>SU NEGOCIO</h2>
           <button type="button">Solicite nuestro servicio</button>
-  
+
       </div>
       </section>
-    <section> 
+    <section>
     <div class="container">
           <ul class="cont2-flex">
           <li>
@@ -65,8 +72,8 @@
               <svg class="servicios-icon">
                 <use href= "./images/icons.svg#icon-beneficio1"></use>
             </svg>
-           
-          </div>    
+
+          </div>
              <p class="menu">ATENCION A LOS DETALLES</p>
             <p class="submenu">
               Nos adentramos en todos los detalles y procesos de su negocio,
@@ -95,7 +102,7 @@
             <p class="menu">PLANIFICACIÓN</p>
             <p class="submenu">
               Usted podrá observar y participar en cada fase del desarrollo y
-              aplicación de soluciones. 
+              aplicación de soluciones.
             </p>
           </li>
           <li>
@@ -155,10 +162,10 @@
                       <svg class="social-link-icon">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                     </svg>
-                  </div>                  
+                  </div>
                    </div>
               </li>
-            </ul>  
+            </ul>
             <ul>
               <li>
                  <div  class="fondo-ne">
@@ -185,7 +192,7 @@
                       <svg class="social-link-icon">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                     </svg>
-                  </div>                  
+                  </div>
                    </div>
                 </div>
               </li>
@@ -216,11 +223,11 @@
                       <svg class="social-link-icon">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                     </svg>
-                  </div>                  
+                  </div>
                    </div>
                </div>
               </li>
-            </ul> 
+            </ul>
             <ul>
               <li>
                 <div class="fondo-ne">
@@ -247,15 +254,15 @@
                       <svg class="social-link-icon">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                     </svg>
-                  </div>                  
-                   </div> 
+                  </div>
+                   </div>
                 </div>
              </li>
             </ul>
         </ul>
       </div>
   </section>
-  
+
   <!-- <section> -->
     <div class="container">
       <p class="subtitulo">Clientes Regulares</p>
@@ -293,16 +300,16 @@
         </svg>
       </div>
     </div>
-  
+
   </div>
   <!-- </section> -->
 
 </main>
-    
+
 <footer>
   <div class="container">
-  <address> 
-    <ul>        
+  <address>
+    <ul>
        <li><p class="foot1">WebStudio</p></li>
        <li><p class="foot2">Calz. Ticomán 500, Ciudad de México, CDMX, México</p></li>
        <li><a class="foot3" href="info@example.com">+info@example.com</a></li>
@@ -311,7 +318,7 @@
     <div>
       <div class="footer-columna">
           <p class="services">ENCUENTRANOS EN</p>
-  
+
         <div class="fila-icons-piepagina">
 
           <div class="iconfooter-container">
@@ -336,7 +343,7 @@
             </div>
           </div>
         </div>
-        </div>     
+        </div>
   </address>
     </div>
   </footer>
