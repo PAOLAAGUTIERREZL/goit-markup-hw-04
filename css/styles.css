@@ -20,6 +20,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 .container-header2 {
   display: flex;
@@ -79,6 +80,7 @@ body {
   color: #2196f3;
   text-decoration: none;
   cursor: pointer;
+  font-family: 'Raleway', 'sans-serif';
   /* padding-left: 1px; */
   /* align-items: flex-start; */
 }
@@ -161,7 +163,7 @@ body {
 /* atencion a los detalles... */
 .cont2-flex {
   padding-top: 95px; /*arriba derecha abajo izquiera */
-  padding-left: 100px;
+  padding-left: 0px;
   margin: 0px;
   border-radius: none;
   box-shadow: none;
@@ -185,16 +187,16 @@ body {
 .cont3-flex {
   /*nuestro equipo posicion vertical */
   padding-top: 50px; /*arriba derecha abajo izquiera */
-  padding-left: 50px;
-  margin: 0px;
-  list-style: none;
+  padding-left: 0px;
+  /* margin: 0px; */
+  /* list-style: none;
   border-radius: none;
-  box-shadow: none;
+  box-shadow: none; */
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 23px;
-  padding-bottom: 94px;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* gap: 23px; */
+  /* padding-bottom: 94px; */
 }
 
 .fondo-gris {
@@ -205,7 +207,7 @@ body {
 }
 .fondo-ne {
   background-color: #ffffff;
-  width: 240px;
+  width: 270px;
 
   /* list-style:circle; */
 }
@@ -236,7 +238,7 @@ body {
   justify-content: space-between;
 }
 .card {
-  width: 240px;
+  width: 270px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -247,42 +249,42 @@ body {
 .cont35-flex {
   /* imagenes de aqué nos dedicamos  */
   padding-top: 50px; /*arriba derecha abajo izquiera */
-  padding-left: 50px;
+  padding-left: 0px;
   list-style: none;
   border-radius: none;
   box-shadow: none;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 23px;
 }
 
 .cont3-flex h4 {
   /*nombres */
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-  background-color: #ffffff;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
 }
 .cont3-flex h5 {
   /*cargos */
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
+  background: #FFFFFF;
   text-align: center;
   letter-spacing: 0.03em;
+
   color: #757575;
-  /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-  background-color: #ffffff; */
 }
 .cont33-flex {
   /*matriz*/
@@ -294,7 +296,7 @@ body {
   flex-direction: column;
   justify-content: center;
   display: flex;
-  padding-left: 30px;
+  /* padding-left: 30px; */
   padding-bottom: 30px;
 }
 .matriz-flex {
@@ -310,6 +312,8 @@ body {
   align-items: center;
   gap: 5px;
   padding-bottom: 30px;
+  justify-content: space-between;
+
 }
 
 ul {
@@ -381,10 +385,10 @@ ul {
   /* Clientes regulares*/
   justify-content: space-between;
   display: flex;
-  width: 500px;
+  /* width: 500px; */
   height: 200px;
   gap: 30px;
-  margin-left: 70px;
+  /* margin-left: 70px; */
 }
 .client-container {
   /* box-sizing: border-box;
@@ -423,7 +427,7 @@ footer {
 address {
   display: flex;
   flex-direction: row;
-  padding-left: 50px;
+  padding-left: 0px;
 }
 
 /* portfolio------------------------------------------------------------------------------------------------------------------------- */
@@ -526,7 +530,7 @@ address {
 }
 
 .foot1 {
-  font-family: "Raleway";
+  font-family: 'Raleway', 'sans-serif';
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -573,7 +577,7 @@ address {
   flex-direction: column;
   align-items: flex-start;
   /* border-top: 75px; */
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 .iconfooter-container {
