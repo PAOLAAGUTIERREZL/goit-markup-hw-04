@@ -208,6 +208,8 @@ body {
 .fondo-ne {
   background-color: #ffffff;
   width: 270px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 
   /* list-style:circle; */
 }
@@ -243,6 +245,8 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  /* padding-top: 30px;
+  padding-bottom: 30px; */
   padding: 32px;
 }
 
@@ -266,6 +270,8 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 19px;
+padding-top: 30px;
+margin: 0px;
 /* identical to box height */
 
 text-align: center;
@@ -283,6 +289,8 @@ color: #212121;
   background: #FFFFFF;
   text-align: center;
   letter-spacing: 0.03em;
+  padding-top: 10px;
+  margin: 0px;
 
   color: #757575;
 }
@@ -300,10 +308,6 @@ color: #212121;
   padding-bottom: 30px;
 }
 .matriz-flex {
-  /* matriz principal de portfolio */
-  /*padding:0px 215px 30px 30px;    /* rriba derecha abajo izquiera*/
-  /* margin:5px; */
-  /* margin top: 55.05px; */
   list-style: none;
   border-radius: none;
   box-shadow: none;
